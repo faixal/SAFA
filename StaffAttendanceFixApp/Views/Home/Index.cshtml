@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Attendance Fix";
+}
+<div id="attendance-fix-body-section">
+    <select data-bind="options: allCampuses, optionsText: 'CampusName', optionsValue: 'CampusId', value: selectedCampus,optionsCaption: 'Campus', event: { change: getTeachersByCampus }"></select>
+    <select class="teachers" data-bind="options: allTeachers, optionsText: 'TeacherName', optionsValue: 'TeacherId', value: selectedTeacher,optionsCaption: 'Teacher'"></select>
+    <span>From</span> <input type="date" data-bind="value:startDate"/>
+    <span>To</span> <input type="date" data-bind="value:endDate"/>
+    <button data-bind="click:getTeacherAttendanceData, disable:isLoading">Get Attendance</button>
+    <button data-bind="click:addNewAttendanceRecord">Add</button>
+
+    <table data-bind="visible:teacherAttendanceRecords().length > 0">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Check-in</th>
+            <th>Check-out</th>
+            <th>Status</th>
+            <th>Reason</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody data-bind="foreach:teacherAttendanceRecords">
+
+        <tr data-bind="visible: $root.editingStaffAttedanceId() !== StaffAttendanceId">
+            <td data-bind="text:StaffAttendanceId"></td>
+            <td data-bind="text:TeacherName"></td>
+            <td data-bind="text:RecCreatedDtString"></td>
+            <td data-bind="text:CheckInDateTimeString"></td>
+            <td data-bind="text:CheckOutDateTimeString"></td>
+            <td data-bind="text:AttendanceStatusName"></td>
+            <td data-bind="text:ReasonName"></td>
+            <td><a data-bind="click: $root.editAttendanceRecord">Edit</a></td>
+            <td><a data-bind="click: $root.deleteAttendanceRecord">Delete</a></td>
+        </tr>
+
+        <tr data-bind="visible: $root.editingStaffAttedanceId() === StaffAttendanceId">
+            <td data-bind="text:StaffAttendanceId"></td>
+            <td data-bind="text:TeacherName"></td>
+            <td data-bind="text:RecCreatedDtString"></td>
+            <td><input type="date" data-bind="value:$root.activeRecord().checkinDate" /><input type="time" data-bind="value:$root.activeRecord().checkinTime" /></td>
+            <td><input type="date" data-bind="value:$root.activeRecord().checkoutDate"/><input type="time" data-bind="value:$root.activeRecord().checkoutTime"/></td>
+            <td><select data-bind="options: $root.attendanceStatuses, optionsText: 'Name', optionsValue: 'AttendanceStatusId', value: $root.activeRecord().attendanceStatusId, optionsCaption: '-Select-', event: { change: $root.adjustReasonId }"></select></td>
+            <td><select data-bind="options: $root.statusReasons, optionsText: 'ReasonName', optionsValue: 'ReasonId', value: $root.activeRecord().reasonId, optionsCaption: '-Select-'"></select></td>
+            <td><a data-bind="click: $root.saveAttendanceRecord">Save</a></td>
+            <td><a data-bind="click: $root.cancelEditRecord">Cancel</a></td>
+        </tr>
+
+        </tbody>
+    </table>
+    <div class="modal" id="overlay"></div>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <!-- Modal content -->
+        <div class="modal-content" data-bind="with:activeRecord">
+            <span class="close" onclick="$('#myModal').hide();">&times;</span>
+            <select data-bind="options: $root.allCampuses, optionsText: 'CampusName', optionsValue: 'CampusId', value: $root.selectedCampus,optionsCaption: 'Campus', event: { change: $root.getTeachersByCampus }"></select>
+            <select class="teachers" data-bind="options: $root.allTeachers, optionsText: 'TeacherName', optionsValue: 'TeacherId', value: $root.selectedTeacher,optionsCaption: 'Teacher'"></select>
+            <p>Date</p>
+            <input type="date" data-bind="value:attendanceDate" />
+            
+            <p>Check-in</p>
+            <input type="date" data-bind="value:checkinDate" /> <input type="time" data-bind="value:checkinTime"/>
+
+            <p>Check-out</p>
+            <input type="date" data-bind="value:checkoutDate" /> <input type="time" data-bind="value:checkoutTime" />
+
+            <p>Status</p>
+            <select data-bind="options: $root.attendanceStatuses, optionsText: 'Name', optionsValue: 'AttendanceStatusId', value: attendanceStatusId, optionsCaption: '-Select-', event: { change: $root.adjustReasonId }"></select>
+
+            <p>Reason</p>
+            <select data-bind="options: $root.statusReasons, optionsText: 'ReasonName', optionsValue: 'ReasonId', value: reasonId, optionsCaption: '-Select-'"></select>
+
+            <button data-bind="click: $root.saveAttendanceRecord" class="pull-right">Save</button>
+        </div>
+    </div>
+
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/Bundle/BaseLibs")
+
+<script type="text/javascript">
+    attendancefix.serverDate = '@DateTime.Now.ToString("yyyy-MM-dd")';
+    attendancefix.serverTime = '@DateTime.Now.ToString("HH:mm")';
+</script>

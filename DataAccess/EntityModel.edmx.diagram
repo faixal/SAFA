@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a26a5c9dd2af49519e61ca01fa1d38c9" Name="Diagram1">
+        <EntityTypeShape EntityType="StaffAttendanceModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Allotments_LevelTypes" Width="1.5" PointX="12" PointY="127.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Allotments_SalaryLevels" Width="1.5" PointX="14.25" PointY="126.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Allotments_StaffSchedule" Width="1.5" PointX="18.75" PointY="111.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Allotments_TeacherResponsibilities" Width="1.5" PointX="24.75" PointY="102.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Allotments_TeacherSalaries" Width="1.5" PointX="16.5" PointY="101.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.AssessmentLink" Width="1.5" PointX="25.5" PointY="87.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_Absent_Reasons" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_EvacuationAttendance" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_LatePass" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_RollTime_Status" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_Schedule" Width="1.5" PointX="21.75" PointY="111.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_Staff_AdvanceReplacements" Width="1.5" PointX="13.5" PointY="105.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_Staff_Attendance" Width="1.5" PointX="13.5" PointY="99.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_Staff_ExemptedPeriods" Width="1.5" PointX="16.5" PointY="96.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_Staff_HomeroomReplacements" Width="1.5" PointX="16.5" PointY="106.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_Staff_InServiceRequests" Width="1.5" PointX="3" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_Staff_Leaves" Width="1.5" PointX="19.5" PointY="101" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_Staff_Replacements" Width="1.5" PointX="19.5" PointY="96.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ATT_Student_Attendance" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Att_StudentReflection_Attendance" Width="1.5" PointX="11.25" PointY="83.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.CH_BalanceEmailLogs" Width="1.5" PointX="8" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.CH_Chronicle" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.CH_ClassCoordinatorMapping" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.CH_DomainHeadMapping" Width="1.5" PointX="11.25" PointY="72.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ChangeLog_DomainBalance" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ClassCode" Width="1.5" PointX="14.25" PointY="114.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ClassScheduleCycle" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_AddressType" Width="1.5" PointX="1.5" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_AfterSchoolReflectionSchedule" Width="1.5" PointX="6" PointY="83.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_BalanceUsageRange" Width="1.5" PointX="5.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_BehaviorLevels" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_BehaviorTypes" Width="1.5" PointX="3.75" PointY="99.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_CallerTypes" Width="1.5" PointX="3.75" PointY="73.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Campus" Width="1.5" PointX="1.5" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Class" Width="1.5" PointX="9" PointY="72.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_DomainBalance" Width="1.5" PointX="23.25" PointY="82.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_FeedbackTypes" Width="1.5" PointX="3.75" PointY="70.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_GradeScales" Width="1.5" PointX="3.75" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_GradesRange" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_GuardianType" Width="1.5" PointX="1.5" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_HazardTypes" Width="1.5" PointX="6.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_IncidentAction" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_IncidentType" Width="1.5" PointX="6.75" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_InjuryLocations" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_InjuryTypes" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_InServiceRequestType" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_ItSupportTypes" Width="1.5" PointX="14.25" PointY="80.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Leadership_Team" Width="1.5" PointX="19.5" PointY="106.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_MaintenanceTypes" Width="1.5" PointX="11.25" PointY="88.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_MedicalCardTypes" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_MedicalConditionTypes" Width="1.5" PointX="5.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Period" Width="1.5" PointX="19.5" PointY="119.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_RequestTypes" Width="1.5" PointX="3" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Room" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_ScheduleCycle" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Section" Width="1.5" PointX="9" PointY="101.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_StaffBreak" Width="1.5" PointX="20.25" PointY="123.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_StaffCategory" Width="1.5" PointX="17.25" PointY="79.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_StaffWorkDays" Width="1.5" PointX="20.25" PointY="125.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_StaffWorkLoad" Width="1.5" PointX="17.25" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Statuses" Width="1.5" PointX="0.75" PointY="82.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_StatusLevel" Width="1.5" PointX="3" PointY="95.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_StudentWorkHabit" Width="1.5" PointX="13.5" PointY="109.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_SubjectWorkHabits" Width="1.5" PointX="25.5" PointY="106" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Task" Width="1.5" PointX="14.25" PointY="123.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_Terms" Width="1.5" PointX="14.25" PointY="118.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_VaccinationAgeTypes" Width="1.5" PointX="6.75" PointY="65.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_VaccinationTypes" Width="1.5" PointX="6.75" PointY="62.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_VenueHire_Types" Width="1.5" PointX="20.25" PointY="82" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_WeightThresholds" Width="1.5" PointX="2.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_WorkHabits" Width="1.5" PointX="11.25" PointY="111" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Config_WorkHabitValues" Width="1.5" PointX="11.25" PointY="130.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.EmailRestriction" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.EmailTemplate" Width="1.5" PointX="12.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.EMP_ClassCoordinatorAssociation" Width="1.5" PointX="14.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.EvaluationType" Width="1.5" PointX="14.25" PointY="139.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Feedback" Width="1.5" PointX="6" PointY="77.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Feedback_Callers" Width="1.5" PointX="3.75" PointY="89.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Feedback_RelatedStaff" Width="1.5" PointX="13.5" PointY="92.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Grade" Width="1.5" PointX="30" PointY="89.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.LeaveType" Width="1.5" PointX="17.25" PointY="120" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.MedicalHistory" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.MSG_MessageResponse" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.MSG_MessageStatus" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Msg_TeacherAssociation" Width="1.5" PointX="16.5" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.MSG_Template" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Notification" Width="1.5" PointX="13.5" PointY="143.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Notification_Configuration" Width="1.5" PointX="11.25" PointY="142.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ParentPortalLog" Width="1.5" PointX="6" PointY="57.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.PreApprovedSubject" Width="1.5" PointX="14.25" PointY="130.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Role_AttendanceStatus" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Rpt_BehaviorReports" Width="1.5" PointX="6" PointY="87.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Rpt_BehaviorWitnesses" Width="1.5" PointX="8.25" PointY="97.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Rpt_IncidentParties" Width="1.5" PointX="14.25" PointY="83.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Rpt_Incidents" Width="1.5" PointX="9" PointY="82" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Rpt_IncidentWitnesses" Width="1.5" PointX="13.5" PointY="95.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Semester" Width="1.5" PointX="12" PointY="119" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_Balance" Width="1.5" PointX="3" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_Classes" Width="1.5" PointX="11.25" PointY="78" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_Logs" Width="1.5" PointX="3" PointY="76.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_MedicalCards" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_MedicalConditions" Width="1.5" PointX="8" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_MedicalInformation" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_SchoolMedicalHistory" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Student_SchoolMedicalInjuries" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_StudentAbsenceLog" Width="1.5" PointX="6.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_StudentAddressMapping" Width="1.5" PointX="6" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_StudentEarlyLeaveLog" Width="1.5" PointX="16.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_StudentGuardianMapping" Width="1.5" PointX="6" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SR_Students" Width="1.5" PointX="0.75" PointY="72.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ST_AddressInformation" Width="1.5" PointX="3.75" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ST_GuardianInformation" Width="1.5" PointX="3.75" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.ST_StudentGaurdian" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Student_ExtendedLeave" Width="1.5" PointX="13.5" PointY="77" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.StudentAbsentEmailLog" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.StudentClassCode" Width="1.5" PointX="18.75" PointY="116" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.StudentComment" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.StudentLateEmailLog" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.StudentVaccinationHistory" Width="1.5" PointX="9" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SubjectDescription" Width="1.5" PointX="8.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Subject" Width="1.5" PointX="12" PointY="114.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Supplier" Width="1.5" PointX="17.25" PointY="83.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SYS_Attendance_Status" Width="1.5" PointX="9" PointY="122.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SYS_Attendance_Status_Reason" Width="1.5" PointX="11.25" PointY="122.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.SYS_PublicHolidays" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.sysdiagram" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TaskAssessmentFile" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TaskAssessment" Width="1.5" PointX="27.75" PointY="104.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TeacherClassCode" Width="1.5" PointX="16.5" PointY="110.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TeacherCrossCampus" Width="1.5" PointX="13.5" PointY="136.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TermWeight" Width="1.5" PointX="16.5" PointY="115.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_AccruedLeaves" Width="1.5" PointX="18.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_AccrueRunLog" Width="1.5" PointX="18.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_ClassTeachers" Width="1.5" PointX="22.5" PointY="101.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_EmploymentHistory" Width="1.5" PointX="19.5" PointY="92.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_HazardRequests" Width="1.5" PointX="9" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_IncursionExcursionClasses" Width="1.5" PointX="11.25" PointY="91" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_IncursionExcursionRequests" Width="1.5" PointX="9" PointY="88.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_ItSupportRequests" Width="1.5" PointX="16.5" PointY="88.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_LeaveLog" Width="1.5" PointX="24.75" PointY="97.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_MaintenanceRequests" Width="1.5" PointX="13.5" PointY="87.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_PurchaseOrderRequestLines" Width="1.5" PointX="21.75" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_PurchaseOrderRequests" Width="1.5" PointX="19.5" PointY="85.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_RequestRights" Width="1.5" PointX="22.5" PointY="97" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_StaffSchedule" Width="1.5" PointX="22.5" PointY="106.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.Tr_TeacherBankingDetail" Width="1.5" PointX="13.5" PointY="171.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_Teachers" Width="1.5" PointX="11.25" PointY="96.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_TeachersIdentification" Width="1.5" PointX="13.5" PointY="175.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_TeachersPurchaseOrderBalance" Width="1.5" PointX="13.5" PointY="179.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_TeacherVenueHireRequestClassses" Width="1.5" PointX="24.75" PointY="92" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.TR_TeacherVenueRequests" Width="1.5" PointX="22.5" PointY="90.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.UMS_Objects" Width="1.5" PointX="18.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.UMS_Permissions" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.UMS_Roles" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.UMS_Users" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="StaffAttendanceModel.VitWwcc" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_Allotments_SalaryLevels_Allotments_LevelTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_Allotments_TeacherSalaries_Allotments_SalaryLevels" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_TeacherResponsibilities_SalaryLevels" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_StaffSchedule_TeacherSalaries" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_TeacherResponsibilities_TeacherSalaries" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_Allotments_TeacherSalaries_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_Allotments_TeacherSalaries_Config_StaffWorkLoad" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_Allotments_TeacherSalaries_Tr_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_AssessmentLinks_dbo_Classes_YearLevelId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_AssessmentLinks_dbo_Subjects_SubjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_AssessmentLinks_dbo_Terms_TermId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TaskAssessments_dbo_AssessmentLinks_AssessmentId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_ATT_Schedule_Config_Period" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_ATT_Schedule_TeacherClassCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_AdvanceReplacements_ATT_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_ExemptedPeriods_ATT_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_Replacements_ATT_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_AdvanceReplacements_ReplacingTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_AdvanceReplacements_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_ATT_Staff_Attendance_TR_IncursionExcursionRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefConfig_Campus13" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefSYS_Attendance_Status_Reason11" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefSYS_Attendance_Status9" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefTR_Teachers12" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_ExemptedPeriods_TR_ClassTeachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_ExemptedPeriods_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_HomeroomReplacements_TR_ClassTeachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_HomeroomReplacements_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_InServiceRequests_Config_InServiceRequestType" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_InServiceRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_Leaves_LeaveType" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_Leaves_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_LeaveLog_Att_Staff_Leaves" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_Replacements_ReplacingTeacher" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_Staff_Replacements_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_StudentReflection_Attendance_Rpt_Incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Att_StudentReflection_Attendance_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_CH_BalanceEmailLogs_Config_BalanceUsageRange" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_CH_DomainHeadMapping_Config_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_SubjectWorkHabits_ClassCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_ClassCodes_dbo_Classes_YearLevelId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_ClassCodes_dbo_Subjects_SubjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TaskAssessments_dbo_ClassCodes_ClassCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TeacherClassCodes_dbo_ClassCodes_ClassCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_ST_AddressInformation_Config_AddressType" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_AfterSchoolReflectionSchedule_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_AfterSchoolReflectionSchedule_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Feedback_Config_CallerTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK__SR_Studen__Campu__6F8A7843" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_CAMPUS_GradeScales" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Campuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_DomainBalance_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Msg_TeacherAssociation_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_EmploymentHistory_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_HazardRequests_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ItSupportRequests_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_MaintenanceRequests_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_PurchaseOrderRequests_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_RequestRights_Config_Campus" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Msg_TeacherAssociation_Config_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_Classes_Config_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ClassTeachers_Config_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionClasses_Config_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeacherVenueHireRequestClassses_Config_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_DomainBalance_Config_DomainBalance" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Feedback_Config_FeedbackTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_ST_GuardianInformation_Config_GuardianType" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_HazardRequests_Config_HazardTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_Incidents_Config_IncidentType" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ItSupportRequests_Config_ItSupportTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Terms" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_MaintenanceRequests_Config_MaintenanceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_MedicalCards_Config_MedicalCardTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_MedicalConditions_Config_MedicalConditionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_RequestRights_Config_RequestTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_SchoolMedicalHistory_Config_Room_Disposition" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_SchoolMedicalHistory_Config_Room_IncidentLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_Classes_Config_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ClassTeachers_Config_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionClasses_Config_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeacherVenueHireRequestClassses_Config_Section" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefConfig_StaffBreak5" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_EmploymentHistory_Config_StaffCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_RequestRights_Config_StaffCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefConfig_StaffWorkDays6" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_EmploymentHistory_Config_StaffWorkLoad" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Feedback_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_BehaviorReports_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_Incidents_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_Logs_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_HazardRequests_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionRequests_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ItSupportRequests_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_MaintenanceRequests_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_PurchaseOrderRequests_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeacherVenueRequests_Config_Statuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_StudentWorkHabit_Config_WorkHabits" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_StudentWorkHabit_Config_WorkHabitValues" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_StudentWorkHabit_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_StudentWorkHabit_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_SubjectWorkHabits_Config_WorkHabits" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_SubjectWorkHabits_Config_WorkHabitValues" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_SubjectWorkHabits_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_Config_Task_dbo_Subjects_SubjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TaskAssessments_dbo_Config_Task_TaskTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_Config_Terms_dbo_Semesters_SemesterId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TeacherClassCodes_dbo_Terms_TermId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TermWeights_dbo_Terms_TermId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_StudentVaccinationHistory_Config_VaccinationAgeTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_StudentVaccinationHistory_Config_VaccinationTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Config_VenueHire_Types" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TermWeights_dbo_EvaluationTypes_EvaluationTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Feedback_Feedback_Callers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Feedback_RelatedStaff_Feedback" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Feedback_RelatedStaff_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_Grades_dbo_Students_StudentId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_Grades_dbo_TaskAssessments_TaskId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Msg_TeacherAssociation_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Notification_Notification_Configuration" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Notification_Configuration_SYS_Attendance_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_ParentPortalLogs_ST_GuardianInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_PreApprovedSubjects_Subjects" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_BehaviorReports_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_BehaviorReports_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_BehaviorWitnesses_Rpt_BehaviorReports" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK__Rpt_Incid__Stude__58DC1D15" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_Incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_Incidents_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_IncidentWitnesses_Rpt_IncidentParties" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_IncidentWitnesses_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Rpt_IncidentWitnesses_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TermWeights_dbo_Semesters_SemesterId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Fk_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_Classes_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Student_ExtendedLeave_SR_Student_Classes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_Logs_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_Logs_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_Student_SchoolMedicalInjuries_SR_Student_SchoolMedicalHistory" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_StudentAddressMapping_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_StudentAddressMapping_ST_AddressInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_StudentDetails_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_SR_StudentDetails_ST_GuardianInformation" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_StudentClassCodes_dbo_Students_StudentId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_StudentVaccinationHistory_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionClasses_SR_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_StudentClassCodes_dbo_TeacherClassCodes_TeacherClassCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_StudentClassCodes_StudentClassCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK__TR_Purcha__Subje__57E7F8DC" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TermWeights_dbo_Subjects_SubjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_PurchaseOrderRequests_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK__SYS_Atten__Atten__2F650636" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_dbo_TeacherClassCodes_dbo_Teachers_TeacherId" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionClasses_TeacherClassCodes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TeacherCrossCampuses_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ClassTeachers_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_EmploymentHistory_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_HazardRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionClasses_TR_IncursionExcursionRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_IncursionExcursionRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_ItSupportRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_LeaveLog_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_MaintenanceRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_PurchaseOrderRequestLines_TR_PurchaseOrderRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_PurchaseOrderRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_RequestRights_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.RefTR_Teachers4" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_Tr_TeacherBankingDetail_TrTeachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeachersBalance_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeachersIdentification_Tr_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeacherVenueRequests_TR_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_TR_TeacherVenueHireRequestClassses_TR_TeacherVenueRequests" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.FK_UMS_Users_UMS_Roles1" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Config_RequestStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Rpt_StudentBehaviorTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.TR_IncursionExcursionStaffAttending" ManuallyRouted="false" />
+        <AssociationConnector Association="StaffAttendanceModel.Config_RightsLevel" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
