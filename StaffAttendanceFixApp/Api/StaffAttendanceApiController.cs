@@ -30,6 +30,7 @@ namespace StaffAttendanceFixApp.Api
                         .Where(
                             x =>
                                 ((teacherId > 0 && x.TeacherId == teacherId) || teacherId == 0) &&
+                                ((teacherId == 0 && x.CampusId == campusId) || teacherId != 0) &&
                                 DbFunctions.TruncateTime(x.RecCreatedDt) >= startDate &&
                                 DbFunctions.TruncateTime(x.RecCreatedDt) <= endDate).ToList();
 
